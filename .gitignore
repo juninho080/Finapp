@@ -1,0 +1,15 @@
+# .gitignore na raiz do projeto Finapp
+
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Banco SQLite
+*.db
+
+# Configurações de editor / sistema
+.vscode/
+.DS_Store
