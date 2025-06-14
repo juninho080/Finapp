@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setup´tools.build_meta"
+
+[project]
+name = "finapp"
+version = "0.1.0"
+description = "controle financeiro simples"
+authors = [{name="Izak Pinheiro Junior"}]
+dependencies = [
+    "SQLAlquemy>=2.0",
+    "click",
+    "pandas",
+]
+
+[project.scripts]
+finapp= "finapp_cli.cli:main"
